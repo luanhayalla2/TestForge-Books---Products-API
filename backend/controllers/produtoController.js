@@ -1,4 +1,4 @@
-const Produto = require("../models/Produto");
+const { Produto } = require("../config/mockDb");
 
 exports.getAll = async (req, res) => {
   const produtos = await Produto.find();

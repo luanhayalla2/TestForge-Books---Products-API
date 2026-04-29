@@ -1,4 +1,4 @@
-const Livro = require("../models/Livro");
+const { Livro } = require("../config/mockDb");
 
 exports.getAll = async (req, res) => {
   const livros = await Livro.find();

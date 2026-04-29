@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-require("./config/db"); // Conecta ao MongoDB
+// require("./config/db"); // Conecta ao MongoDB (Desativado para Modo Mock)
 
 const produtoRoutes = require("./routes/produtoRoutes");
 const livroRoutes = require("./routes/livroRoutes");
